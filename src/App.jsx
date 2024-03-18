@@ -16,6 +16,7 @@ const App = () => {
     {
       path: "/home",
       element: <Home />,
+      errorElement: <Login />,
       children: [
         { path: "", element: <Main /> },
         { path: "more", element: <More /> },
